@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
-			<version>20160517</version>
+			<version>20160810</version>
 		</dependency>
 		<dependency>
             <groupId>commons-codec</groupId>
