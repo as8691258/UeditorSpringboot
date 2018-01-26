@@ -163,7 +163,7 @@ public final class ConfigManager {
 		}
 		//判断是否为本地环境，如果为本地环境，则需要更换json文件的读取路径
 		if( file.toString().contains(":\\") ){
-			file = new File("src/main/resources/config.json");
+			file = new File(Class.class.getClass().getResource("/").getPath()+"config.json");
 			if ( !file.isAbsolute() ) {
 				file = new File( file.getAbsolutePath() );
 			}
